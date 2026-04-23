@@ -86,7 +86,7 @@ The system is built using Object-Oriented Programming (OOP) and modular design:
 ---
 
 ## 📁 Project Structure
-
+```bash
 project/
 │
 ├── src/
@@ -124,7 +124,7 @@ project/
 │
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## 📦 Requirements
