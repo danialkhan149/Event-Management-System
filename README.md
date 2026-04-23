@@ -87,10 +87,43 @@ The system is built using Object-Oriented Programming (OOP) and modular design:
 
 ## 📁 Project Structure
 
-include/ → Header files (.h)
-src/ → Source files (.cpp)
-build/ → Compiled output (ignored in git)
-main.cpp → Entry point
+project/
+│
+├── src/
+│   ├── main.cpp
+│   ├── EventManagementSystem.cpp
+│   ├── Participant.cpp
+│   ├── Registration.cpp
+│   ├── Event.cpp
+│   ├── Graph.cpp
+│   ├── HashTable.cpp
+│   ├── LinkedQueue.cpp
+│   ├── LinkedStack.cpp
+│   ├── PriorityQueue.cpp
+│   └── EventBST.cpp
+│
+├── include/
+│   ├── EventManagementSystem.h
+│   ├── Participant.h
+│   ├── Registration.h
+│   ├── Event.h
+│   ├── Graph.h
+│   ├── HashTable.h
+│   ├── LinkedQueue.h
+│   ├── LinkedStack.h
+│   ├── PriorityQueue.h
+│   └── EventBST.h
+│
+├── data/
+│   ├── events.txt
+│   ├── pending.txt
+│   └── verified.txt
+│
+├── build/
+│   └── system.exe
+│
+├── .gitignore
+└── README.md
 
 ---
 
