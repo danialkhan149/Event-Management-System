@@ -94,6 +94,13 @@ main.cpp → Entry point
 
 ---
 
+## 📦 Requirements
+
+- C++ Compiler (g++ / MinGW / MSVC)
+- C++11 or above
+
+---
+
 ## ⚙️ How to Compile & Run
 
 ### Using g++ (Linux / MinGW)
@@ -101,10 +108,3 @@ main.cpp → Entry point
 ```bash
 g++ src/*.cpp -Iinclude -o system
 ./system
-
----
-
-## 📦 Requirements
-
-- C++ Compiler (g++ / MinGW / MSVC)
-- C++11 or above
