@@ -1,3 +1,16 @@
-build/
-*.o
+# Build files
 *.exe
+*.o
+*.obj
+build/
+bin/
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS files
+.DS_Store
+Thumbs.db
